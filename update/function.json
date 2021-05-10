@@ -5,9 +5,9 @@
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
+      "route": "{collection}/{name}",
       "methods": [
-        "get",
-        "post"
+        "put"
       ]
     },
     {
@@ -16,5 +16,5 @@
       "name": "res"
     }
   ],
-  "scriptFile": "../dist/HttpTrigger1/index.js"
+  "scriptFile": "../dist/update/index.js"
 }

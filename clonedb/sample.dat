@@ -1,0 +1,5 @@
+{
+    "desturl": "mongodb+srv://semtation:SemTalk3!@cluster0.pumvg.mongodb.net/kibardoc?retryWrites=true&w=majority",
+    "collection": "SDX",
+    "destcollection": "SDX"
+}
